@@ -29,7 +29,10 @@ Developer --> Azure CI Pipeline --> Azure CD Pipeline --> Virtual Machine (IIS S
                                           Log Analytics
 
 ```
-https://github.com/jayant77778/PROJECT-CELEBAL-TECHNOLOGIES/blob/main/Screenshots/1.png
+![1](https://github.com/user-attachments/assets/4d59a7e7-37df-4e10-947a-99fa9df68809)
+![2](https://github.com/user-attachments/assets/7f498a40-46cc-4086-b26e-b414624592cf)
+![2a](https://github.com/user-attachments/assets/1ee7471d-ce40-48b9-8c54-a9b4ce68e3ca)
+
 ## CI/CD Process
 1. **Source Control Management**: Developers commit code changes to Azure DevOps Git repository.
 2. **Continuous Integration (CI)**:
@@ -51,6 +54,7 @@ https://github.com/jayant77778/PROJECT-CELEBAL-TECHNOLOGIES/blob/main/Screenshot
 
 ### 2. Set up Azure DevOps Project
 - Create a new project in Azure DevOps and set up a Git repository for your application code.
+![2b](https://github.com/user-attachments/assets/3ed0c9e7-abf8-46ac-b485-6afe279b0a83)
 
 ### 3. Configure CI Pipeline
 Create a `azure-pipelines.yml` file in the root of your repository:
@@ -88,6 +92,9 @@ steps:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'drop'
 ```
+![3](https://github.com/user-attachments/assets/36d9f9f5-14f9-4a16-9607-1595633bfad2)
+![4](https://github.com/user-attachments/assets/940e6bfb-8ed4-4aac-8da0-0fbe7467983f)
+
 
 ### 4. Configure CD Pipeline
 Create a new release pipeline in Azure DevOps:
@@ -109,6 +116,17 @@ steps:
     WebSiteName: 'Default Web Site'
     Package: '$(System.ArtifactsDirectory)/drop'
 ```
+![5a](https://github.com/user-attachments/assets/1414d51d-d58c-44f5-809d-e4dd3a9f4ae9)
+![6](https://github.com/user-attachments/assets/de69ff12-ffbd-4c8c-a880-678f84128455)
+![6a](https://github.com/user-attachments/assets/6fd4186a-1518-4d42-9bc3-0f20839dbb5c)
+###  Finally it done successfully
+![7](https://github.com/user-attachments/assets/3c5a560c-6edb-4277-8db5-d3a8f4694cd7)
+![8](https://github.com/user-attachments/assets/f2c3f5da-d4bd-46dd-9ac7-e77df9de2e11)
+![9](https://github.com/user-attachments/assets/fd09d07f-6e62-4b3b-a3d9-12f61f2569a6)
+### Now IIS SERVER 
+![10](https://github.com/user-attachments/assets/0db817bb-4eed-4c23-9af3-109ef323c228)
+![11](https://github.com/user-attachments/assets/079c7206-0e6a-42fd-9e69-ada4a3fe7224)
+![12](https://github.com/user-attachments/assets/0532945b-46f4-401e-bee6-633aae4d911e)
 
 ### 5. Register the VM with Azure DevOps
 Run the provided registration script on the VM to register it as a deployment target.
