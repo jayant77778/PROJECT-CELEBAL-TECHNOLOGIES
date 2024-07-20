@@ -178,9 +178,19 @@ steps:
 
 ![18](https://github.com/user-attachments/assets/eee5d5c6-f341-47b4-9347-3e54cf07e280)
 
+
+
+
 # Result 
 
 ![Screenshot 2024-07-20 130708](https://github.com/user-attachments/assets/fcea6378-6bde-4552-8b2e-6c11425e35d3)
+
+
+
+
+
+
+
 
 # Output
 After deploying the CI/CD pipeline and integrating my HTML repository, my project is live on the IIS server with the help of the deployment.
