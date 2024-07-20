@@ -29,8 +29,14 @@ Developer --> Azure CI Pipeline --> Azure CD Pipeline --> Virtual Machine (IIS S
                                           Log Analytics
 
 ```
+
+
 ![1](https://github.com/user-attachments/assets/4d59a7e7-37df-4e10-947a-99fa9df68809)
+
+
 ![2](https://github.com/user-attachments/assets/7f498a40-46cc-4086-b26e-b414624592cf)
+
+
 ![2a](https://github.com/user-attachments/assets/1ee7471d-ce40-48b9-8c54-a9b4ce68e3ca)
 
 ## CI/CD Process
@@ -92,7 +98,9 @@ steps:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'drop'
 ```
+
 ![3](https://github.com/user-attachments/assets/36d9f9f5-14f9-4a16-9607-1595633bfad2)
+
 ![4](https://github.com/user-attachments/assets/940e6bfb-8ed4-4aac-8da0-0fbe7467983f)
 
 
@@ -116,18 +124,33 @@ steps:
     WebSiteName: 'Default Web Site'
     Package: '$(System.ArtifactsDirectory)/drop'
 ```
+
 ![5a](https://github.com/user-attachments/assets/1414d51d-d58c-44f5-809d-e4dd3a9f4ae9)
+
 ![6](https://github.com/user-attachments/assets/de69ff12-ffbd-4c8c-a880-678f84128455)
+
 ![6a](https://github.com/user-attachments/assets/6fd4186a-1518-4d42-9bc3-0f20839dbb5c)
+
+
 ###  Finally it done successfully
+
 ![7](https://github.com/user-attachments/assets/3c5a560c-6edb-4277-8db5-d3a8f4694cd7)
+
 ![8](https://github.com/user-attachments/assets/f2c3f5da-d4bd-46dd-9ac7-e77df9de2e11)
+
 ![9](https://github.com/user-attachments/assets/fd09d07f-6e62-4b3b-a3d9-12f61f2569a6)
+
+
 ### Now IIS SERVER 
+
 ![10](https://github.com/user-attachments/assets/0db817bb-4eed-4c23-9af3-109ef323c228)
+
 ![11](https://github.com/user-attachments/assets/079c7206-0e6a-42fd-9e69-ada4a3fe7224)
+
 ![12](https://github.com/user-attachments/assets/0532945b-46f4-401e-bee6-633aae4d911e)
+
 ![12a](https://github.com/user-attachments/assets/fbbf70e3-97d2-4386-936d-ba94e65fba14)
+
 ![13](https://github.com/user-attachments/assets/bb694025-2f15-43dc-9103-6b30c9c984a4)
 
 ###  SO NOW OUR PROJECT IS SUCCESFULLY DEPLOY AND RUN 
@@ -145,7 +168,9 @@ Use Azure Monitor to track application performance and validate the deployment b
 ![15](https://github.com/user-attachments/assets/b2532f02-ebd9-45aa-b961-35e664925668)
 
 ![16](https://github.com/user-attachments/assets/78682789-ba15-4e9e-b42a-ac65c6f3725f)
+
 ![17](https://github.com/user-attachments/assets/d676121f-20bd-4a79-a59c-061ba39bb3ce)
+
 ![18](https://github.com/user-attachments/assets/eee5d5c6-f341-47b4-9347-3e54cf07e280)
 
 ### Result 
