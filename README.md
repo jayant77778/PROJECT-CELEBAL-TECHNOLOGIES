@@ -127,12 +127,34 @@ steps:
 ![10](https://github.com/user-attachments/assets/0db817bb-4eed-4c23-9af3-109ef323c228)
 ![11](https://github.com/user-attachments/assets/079c7206-0e6a-42fd-9e69-ada4a3fe7224)
 ![12](https://github.com/user-attachments/assets/0532945b-46f4-401e-bee6-633aae4d911e)
+![12a](https://github.com/user-attachments/assets/fbbf70e3-97d2-4386-936d-ba94e65fba14)
+![13](https://github.com/user-attachments/assets/bb694025-2f15-43dc-9103-6b30c9c984a4)
+
+###  SO NOW OUR PROJECT IS SUCCESFULLY DEPLOY AND RUN 
+
+![14](https://github.com/user-attachments/assets/66cd42d1-92f4-4c89-a300-4c392d1c1eca)
 
 ### 5. Register the VM with Azure DevOps
 Run the provided registration script on the VM to register it as a deployment target.
+or use your own windows setup registered your machine in development group.
+![Screenshot 2024-07-20 132726](https://github.com/user-attachments/assets/047f6a3a-cd65-492b-91a3-8cdbc3bc15e0)
+
 
 ### 6. Monitor and Validate
 Use Azure Monitor to track application performance and validate the deployment by accessing the application on the IIS server.
+![15](https://github.com/user-attachments/assets/b2532f02-ebd9-45aa-b961-35e664925668)
+
+![16](https://github.com/user-attachments/assets/78682789-ba15-4e9e-b42a-ac65c6f3725f)
+![17](https://github.com/user-attachments/assets/d676121f-20bd-4a79-a59c-061ba39bb3ce)
+![18](https://github.com/user-attachments/assets/eee5d5c6-f341-47b4-9347-3e54cf07e280)
+
+### Result 
+
+![Screenshot 2024-07-20 130708](https://github.com/user-attachments/assets/fcea6378-6bde-4552-8b2e-6c11425e35d3)
+
+### Output
+After deploying the CI/CD pipeline and integrating my HTML repository, my project is live on the IIS server with the help of the deployment.
+![14](https://github.com/user-attachments/assets/a81ca78b-e344-4953-b3b2-6b55569bcc3e)
 
 ## Helpful Documents
 - [Deploying to IIS using Azure DevOps YAML Pipelines](https://learn.microsoft.com/en-us/azure/devops/pipelines/release/deploy-webdeploy-iis-deploygroups?view=azure-devops&tabs=net)
