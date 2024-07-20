@@ -203,6 +203,5 @@ After deploying the CI/CD pipeline and integrating my HTML repository, my projec
 ---
 
 ## This project is created by Jayant Bhati 
-## Contact :linkedin.com/in/jayant-bhati-263206259
 ##   Email : jai77bhati@gmail.com
 
