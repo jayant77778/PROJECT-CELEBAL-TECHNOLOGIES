@@ -27,8 +27,9 @@ Developer --> Azure CI Pipeline --> Azure CD Pipeline --> Virtual Machine (IIS S
                                             Azure Monitor
                                                |
                                           Log Analytics
-```
 
+```
+https://github.com/jayant77778/PROJECT-CELEBAL-TECHNOLOGIES/blob/main/Screenshots/1.png
 ## CI/CD Process
 1. **Source Control Management**: Developers commit code changes to Azure DevOps Git repository.
 2. **Continuous Integration (CI)**:
