@@ -202,4 +202,3 @@ After deploying the CI/CD pipeline and integrating my HTML repository, my projec
 
 ---
 
-This README file provides a comprehensive guide to setting up CI/CD pipelines for deploying a .NET application to a Windows IIS server using Azure DevOps. Follow the steps carefully to ensure a successful implementation.
