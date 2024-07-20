@@ -1,5 +1,5 @@
 
-# Project 08 - IIS Server Deployment using Azure DevOps (BY-Jayant Bhati)
+# Project 08 - IIS Server Deployment using Azure DevOps 
 
 This project involves automating the deployment of applications to Windows IIS servers using Azure DevOps. It aims to streamline and ensure reliable delivery processes for the web application hosted on the servers, utilizing the .NET framework for development.
 
@@ -201,4 +201,8 @@ After deploying the CI/CD pipeline and integrating my HTML repository, my projec
 - [Medium Article on IIS Deployment](https://medium.com/dvt-engineering/how-to-deploy-to-iis-using-azure-devops-yaml-pipelines-a5987f1b9b78)
 
 ---
+
+## This project is created by Jayant Bhati 
+## Contact :linkedin.com/in/jayant-bhati-263206259
+##   Email : jai77bhati@gmail.com
 
