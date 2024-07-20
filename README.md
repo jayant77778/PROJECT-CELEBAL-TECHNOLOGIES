@@ -157,14 +157,19 @@ steps:
 
 ![14](https://github.com/user-attachments/assets/66cd42d1-92f4-4c89-a300-4c392d1c1eca)
 
-### 5. Register the VM with Azure DevOps
-Run the provided registration script on the VM to register it as a deployment target.
-or use your own windows setup registered your machine in development group.
+##  5. Register the VM with Azure DevOps
+
+###  Run the provided registration script on the VM to register it as a deployment target.
+
+###  or use your own windows setup registered your machine in development group.
+
 ![Screenshot 2024-07-20 132726](https://github.com/user-attachments/assets/047f6a3a-cd65-492b-91a3-8cdbc3bc15e0)
 
 
-### 6. Monitor and Validate
-Use Azure Monitor to track application performance and validate the deployment by accessing the application on the IIS server.
+## 6. Monitor and Validate
+
+
+###  Use Azure Monitor to track application performance and validate the deployment by accessing the application on the IIS server.
 ![15](https://github.com/user-attachments/assets/b2532f02-ebd9-45aa-b961-35e664925668)
 
 ![16](https://github.com/user-attachments/assets/78682789-ba15-4e9e-b42a-ac65c6f3725f)
@@ -173,11 +178,11 @@ Use Azure Monitor to track application performance and validate the deployment b
 
 ![18](https://github.com/user-attachments/assets/eee5d5c6-f341-47b4-9347-3e54cf07e280)
 
-### Result 
+# Result 
 
 ![Screenshot 2024-07-20 130708](https://github.com/user-attachments/assets/fcea6378-6bde-4552-8b2e-6c11425e35d3)
 
-### Output
+# Output
 After deploying the CI/CD pipeline and integrating my HTML repository, my project is live on the IIS server with the help of the deployment.
 ![14](https://github.com/user-attachments/assets/a81ca78b-e344-4953-b3b2-6b55569bcc3e)
 
